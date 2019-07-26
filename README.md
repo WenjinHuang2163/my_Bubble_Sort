@@ -1,7 +1,8 @@
 
 # How to use the "code"?
 
-Click <code package>, copy and stick the code into Julia.
+Choose "code package", copy and stick the code into Julia.
+
 ```
 funtion myBubbleSort(x)
 	if length(x) < 1
