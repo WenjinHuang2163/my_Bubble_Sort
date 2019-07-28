@@ -3,7 +3,7 @@
 
 
 ```
-funtion myBubbleSort(x)
+function myBubbleSort(x)
 	if length(x) < 1
 	    return "Your original is not an array!"
 	else
