@@ -2,7 +2,7 @@
 # How to use the "code"?
 
 
-Open the file "code", copy the code and right-click on the Julia to paste.
+Use the script file "myBubbleSort.jl". (You may copy the code and right-click on the Julia to paste, or use it directly in Julia.)
 
 ```
 function myBubbleSort(x)
