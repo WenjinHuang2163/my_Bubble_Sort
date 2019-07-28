@@ -3,7 +3,7 @@ funtion myBubbleSort(x)
 	if length(x) < 1
 	    return "Your original is not an array!"
 	else
-	    println(" original: $x")			# Print the first line
+	    println(" original: $x")	
 	    s=x						# Initialize s (sorted array)
 	    index = [1:length(s)...]			# Initialize index (the index of elements in the sorted array)
 	    rank = 0 * index				# Initialize rank (the ranks of elements in the original array)
