@@ -1,7 +1,6 @@
 
 # How to use the "code"?
 
-Choose "code", copy and stick the code into Julia.
 
 ```
 funtion myBubbleSort(x)
