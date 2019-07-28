@@ -2,6 +2,8 @@
 # How to use the "code"?
 
 
+Open the file "code", copy the code and right-click on the Julia to paste.
+
 ```
 function myBubbleSort(x)
 	if length(x) < 1
@@ -24,6 +26,9 @@ function myBubbleSort(x)
 	println(" sorted:   $s\n index:    $index\n rank:     $rank")
 end
 ```
+
+Feedback:
+
 ```
 => myBubbleSort (generic function with 1 method)
 ```
@@ -33,7 +38,8 @@ end
 ```
 arr=[]
 myBubbleSort(arr)
-
+```
+```
 => "Your original is not an array!"
 ```
 
@@ -42,7 +48,8 @@ myBubbleSort(arr)
 ```
 arr1=[31, 2, 11, 23, 8, 7, 11, 14, 20]
 myBubbleSort(arr1)
-
+```
+```
 => original: [31, 2, 11, 23, 8, 7, 11, 14, 20]
 => sorted:   [2, 7, 8, 11, 11, 14, 20, 23, 31]
 => index:    [2, 6, 5, 3, 7, 8, 9, 4, 1]
